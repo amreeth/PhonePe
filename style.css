@@ -1,0 +1,9 @@
+.carosal-btn{
+    width: 0.7rem !important; 
+    height: 0.7rem !important; 
+    border-radius: 50% !important;
+    background-color: rgb(237, 232, 241) !important;
+}
+.carosal-btn:hover{
+    background-color: rgb(125, 41, 204) !important;
+}
