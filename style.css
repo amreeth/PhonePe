@@ -1,3 +1,6 @@
+/* *{
+    overflow-x: hidden; 
+} */
 .carosal-btn{
     width: 0.7rem !important; 
     height: 0.7rem !important; 
@@ -11,3 +14,21 @@
     width: 33.75rem;
     height:18.125rem;
 }
+@media(max-width:1000px)
+{
+    .cs{
+        flex-direction: column-reverse
+       }
+}
+video {
+    pointer-events: none;
+  }
+  .bar{
+    display: inline-block;
+    width: 100%;
+    height: 1px;
+    background-color: #979797;
+  }
+  .carousel-item{
+      
+  }
