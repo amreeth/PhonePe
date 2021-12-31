@@ -29,3 +29,54 @@ video {
     height: 1px;
     background-color: #979797;
   }
+
+  .card-content:nth-child(1){
+      background-image: url('images/card1.svg');
+      background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: contain;
+  }
+  .card-content:nth-child(2){
+    background-image: url('images/card2.svg');
+    background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: contain;
+}
+section{
+    margin: 50px 100px;
+    padding: 50px 0px;
+}
+.million{
+    margin: 0;
+    margin-top: -207px;
+    background-color: rgb(212, 230, 245);
+    padding-top: 180px;
+    padding-bottom: 50px;
+
+}
+
+@media screen and (max-width: 600px){
+    section{
+        margin: 5px 11px;
+        padding: 50px 0px;
+    }
+    .million{
+        margin: 0;
+        margin-top: -96px;
+        padding-top: 25px;
+        padding-bottom: 50px;
+    
+    }
+    .card-content{
+        height: 200px;
+        width: 98%;
+        margin: 20px auto;
+        background-size: contain;
+    }
+    .card-content .card-title{
+        font-size: 1.25rem;
+    }
+    .card-content .card-text{
+        font-size: 1rem
+    }
+}
